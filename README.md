@@ -4,7 +4,7 @@ This is a repository for exploring Reinforcement Learning algorithms and applica
 
 ## Multi-armed Bandit Problem
 
-![an octopus using its many arms to select the best option from a set of distributions](https://multithreaded.stitchfix.com/assets/posts/2020-08-05-bandits/multi_armed_bandit.webm)
+![an octopus using its many arms to select the best option from a set of distributions](https://miro.medium.com/v2/resize:fit:1200/1*5q0Mihf29fftuXpKWWX2uA.png)
 
 The Multi-armed Bandit problem involves making a trade-off between exploration and exploitation when selecting from multiple options (arms) with different reward distributions. The notebook in this repository demonstrates the problem and introduces the Upper Confidence Bound (UCB) algorithm as a solution.
 
