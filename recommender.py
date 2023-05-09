@@ -30,3 +30,8 @@ class Recommender:
             else:
                 self.user_preferences[user_id][item] = reward
             self.user_preferences[user_id][item] += ucb
+
+    def get_top_n_preferences(self, user_id, n):
+        if user_id not in self.user_preferences:
+            return []
+        return sorted(self.user_preferences[user_id].items(), key=lambda x: x[1], reverse=True)[:n]
